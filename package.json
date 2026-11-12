@@ -1,0 +1,17 @@
+{
+  "name": "gendler-girls",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The Gendler Girls — memorial site for Holocaust survivors Leah Gendler Fink and Naomi Gendler Jacobson. Rafi owns the code; the family edits content through the admin.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "seed": "node seed/seed.mjs",
+    "seed:local": "wrangler d1 execute gendler-girls --local --file=seed/seed.sql",
+    "seed:remote": "wrangler d1 execute gendler-girls --remote --file=seed/seed.sql",
+    "deploy": "wrangler pages deploy public"
+  },
+  "devDependencies": {
+    "wrangler": "^4.161.0"
+  }
+}
