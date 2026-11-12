@@ -1,0 +1,471 @@
+/* Gendler Girls — public site styles.
+   Theme is a class on <html> (e.g. theme-warm); new presets add a new
+   html.theme-* block overriding the custom properties below. */
+
+html.theme-warm {
+  --bg: #faf7f1;
+  --surface: #ffffff;
+  --surface-alt: #f3ecdf;
+  --ink: #2e2a24;
+  --muted: #6f675c;
+  --line: #e2d8c8;
+  --accent: #7a5a38;
+  --accent-dark: #5d452a;
+  --accent-soft: #efe6d5;
+  --hero-text: #ffffff;
+  --hero-shade: rgba(46, 34, 20, 0.55);
+  --draft-bg: #fdf3d7;
+  --draft-border: #c9a227;
+  --draft-ink: #5c4a12;
+  --shadow: 0 1px 3px rgba(46, 42, 36, 0.08), 0 4px 14px rgba(46, 42, 36, 0.06);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Georgia, "Palatino Linotype", "Book Antiqua", "Times New Roman", serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; height: auto; }
+
+a { color: var(--accent-dark); }
+a:hover { color: var(--accent); }
+
+h1, h2, h3, h4 {
+  font-family: Georgia, "Palatino Linotype", "Book Antiqua", serif;
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 0 0 0.6em;
+  color: var(--ink);
+}
+
+p { margin: 0 0 1em; }
+
+/* ---------- Header / nav ---------- */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(250, 247, 241, 0.97);
+  border-bottom: 1px solid var(--line);
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.55rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+
+.brand-logo {
+  display: block;
+  height: 44px;
+  width: auto;
+}
+
+.brand-wordmark {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 1.1rem;
+  margin-left: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.92rem;
+}
+
+.site-nav a {
+  color: var(--ink);
+  text-decoration: none;
+  padding: 0.35rem 0.1rem;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+}
+
+.site-nav a:hover,
+.site-nav a:focus-visible {
+  color: var(--accent-dark);
+  border-bottom-color: var(--accent);
+}
+
+/* ---------- Layout ---------- */
+
+main { min-height: 60vh; }
+
+.page-section {
+  scroll-margin-top: 84px;
+  padding: 3.5rem 1.25rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.page-section:last-of-type { border-bottom: none; }
+
+.section-inner {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.section-inner--wide { max-width: 1020px; }
+
+.section-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0.35em;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 2px;
+  background: var(--accent);
+  margin: 0.55em auto 0;
+}
+
+.subsection { margin-top: 2.75rem; }
+.subsection:first-child { margin-top: 0; }
+
+.subsection-title { font-size: 1.45rem; margin-bottom: 0.5em; }
+.item-title { font-size: 1.2rem; margin-bottom: 0.5em; }
+
+/* ---------- Hero ---------- */
+
+.hero { position: relative; padding: 0; border-bottom: 1px solid var(--line); }
+
+.hero-img {
+  display: block;
+  width: 100%;
+  height: min(78vh, 640px);
+  object-fit: cover;
+  object-position: center 30%;
+}
+
+.hero-text {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 4rem 1.25rem 2.5rem;
+  background: linear-gradient(to top, var(--hero-shade) 0%, rgba(46, 34, 20, 0.25) 70%, transparent 100%);
+  color: var(--hero-text);
+  text-align: center;
+}
+
+.hero-text h1 {
+  color: var(--hero-text);
+  font-size: clamp(2rem, 5.5vw, 3.4rem);
+  margin-bottom: 0.25em;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
+}
+
+.hero-subtitle {
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  font-style: italic;
+  margin: 0 auto;
+  max-width: 720px;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
+}
+
+.hero--no-image .hero-text {
+  position: static;
+  background: var(--surface-alt);
+  color: var(--ink);
+  padding: 4rem 1.25rem 3rem;
+}
+
+.hero--no-image .hero-text h1,
+.hero--no-image .hero-subtitle { color: var(--ink); text-shadow: none; }
+
+/* ---------- Text blocks / prose ---------- */
+
+.text-block { margin-bottom: 1.75rem; }
+.text-block:last-child { margin-bottom: 0; }
+
+.text-block-title { font-size: 1.45rem; }
+
+/* ---------- Timeline ---------- */
+
+.timeline {
+  list-style: none;
+  margin: 1.5rem 0 0;
+  padding: 0 0 0 1.6rem;
+  border-left: 2px solid var(--line);
+}
+
+.timeline li { position: relative; padding: 0 0 1.6rem; }
+.timeline li:last-child { padding-bottom: 0; }
+
+.timeline li::before {
+  content: "";
+  position: absolute;
+  left: calc(-1.6rem - 6px);
+  top: 0.55em;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2px solid var(--accent);
+}
+
+.timeline-year {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.25em;
+}
+
+.timeline-body { color: var(--ink); }
+.timeline-body p:last-child { margin-bottom: 0; }
+
+/* ---------- Video ---------- */
+
+.video { margin: 0 0 2.25rem; }
+.video:last-child { margin-bottom: 0; }
+
+.video-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #1c1814;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.video-wrap iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video figcaption {
+  margin-top: 0.6rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+/* ---------- Photos / albums ---------- */
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 1.25rem 0 0;
+}
+
+.photo { margin: 0; }
+
+.photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: var(--shadow);
+  background: var(--surface-alt);
+}
+
+.photo figcaption {
+  margin-top: 0.55rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+.album { margin-bottom: 2.75rem; }
+.album:last-child { margin-bottom: 0; }
+
+.album-description { color: var(--muted); font-style: italic; }
+
+/* ---------- Speeches ---------- */
+
+.speech {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 1.75rem 1.75rem 1.25rem;
+  margin-bottom: 1.75rem;
+  box-shadow: var(--shadow);
+}
+
+.speech:last-child { margin-bottom: 0; }
+
+.speech-meta {
+  color: var(--muted);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--line);
+}
+
+/* ---------- Joel's Notes ---------- */
+
+.note-page {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+  gap: 1.5rem;
+  align-items: start;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.note-page:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+
+.note-transcription h4 { font-size: 1.05rem; margin-bottom: 0.4em; }
+.note-transcription p:last-child { margin-bottom: 0; }
+
+/* ---------- Appearances / references ---------- */
+
+.appearance { margin-bottom: 2rem; }
+.appearance:last-child { margin-bottom: 0; }
+
+.appearance-meta {
+  color: var(--muted);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.reference { margin-bottom: 2rem; }
+.reference:last-child { margin-bottom: 0; }
+
+/* ---------- Draft banner ---------- */
+
+.draft-banner {
+  background: var(--draft-bg);
+  border: 1px solid var(--draft-border);
+  color: var(--draft-ink);
+  border-radius: 6px;
+  padding: 0.9rem 1.1rem;
+  margin-bottom: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.draft-banner strong { font-weight: 700; }
+
+/* ---------- Empty states / loading / error ---------- */
+
+.empty-state {
+  border: 1px dashed var(--line);
+  border-radius: 6px;
+  padding: 1.5rem 1.25rem;
+  text-align: center;
+  color: var(--muted);
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+.loading,
+.error-state {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4rem 1.25rem;
+  text-align: center;
+}
+
+.error-state h1 { font-size: 1.6rem; }
+.error-state p { color: var(--muted); }
+
+.noscript-note {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--muted);
+}
+
+/* ---------- Contact / footer ---------- */
+
+.contact-block {
+  margin-top: 3rem;
+  padding: 1.75rem;
+  background: var(--surface-alt);
+  border-radius: 6px;
+  text-align: center;
+}
+
+.contact-block h2 { font-size: 1.35rem; }
+.contact-block p:last-child { margin-bottom: 0; }
+
+.site-footer {
+  background: var(--surface-alt);
+  border-top: 1px solid var(--line);
+  padding: 2.5rem 1.25rem 3rem;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.site-footer .footer-title {
+  font-family: Georgia, "Palatino Linotype", "Book Antiqua", serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+}
+
+.site-footer p { max-width: 640px; margin-left: auto; margin-right: auto; }
+
+.footer-admin { margin-top: 1.25rem; font-size: 0.85rem; }
+.footer-admin a { color: var(--muted); text-decoration: none; }
+.footer-admin a:hover { text-decoration: underline; }
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 720px) {
+  body { font-size: 1rem; }
+
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+    padding: 0.6rem 1rem 0.55rem;
+  }
+
+  .site-nav {
+    margin-left: 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    padding-bottom: 0.25rem;
+  }
+
+  .page-section { padding: 2.5rem 1rem; scroll-margin-top: 118px; }
+
+  .section-title { font-size: 1.6rem; }
+
+  .hero-img { height: min(52vh, 380px); }
+
+  .note-page { grid-template-columns: 1fr; }
+
+  .speech { padding: 1.25rem 1.1rem 0.9rem; }
+
+  .photo-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 0.9rem; }
+}
