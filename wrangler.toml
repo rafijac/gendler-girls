@@ -1,0 +1,20 @@
+# Gendler Girls — Cloudflare Pages + D1 + R2
+# See README.md for deploy instructions and required secrets
+# (ADMIN_PASSWORD_HASH, SESSION_SECRET, SNAPSHOT_TOKEN).
+
+name = "gendler-girls"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "gendler-girls"
+# NOTE: database_id is intentionally omitted. Local dev (`wrangler pages dev`
+# with a local D1) works without it. After creating the remote database with
+# `wrangler d1 create gendler-girls`, paste the returned database_id here
+# (see README) before deploying remotely.
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "gendler-girls-uploads"
+# Create with: wrangler r2 bucket create gendler-girls-uploads
