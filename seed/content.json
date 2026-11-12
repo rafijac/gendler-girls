@@ -1,0 +1,665 @@
+{
+  "site": {
+    "title": "The Gendler Girls",
+    "subtitle": "Leah Gendler Fink & Naomi Gendler Jacobson — Holocaust Survivors and Sisters",
+    "about": "A tribute to the courage, love, and unbreakable bond between two sisters who survived the Holocaust together. Maintained by the grandchildren of Perel and Joseph Gendler.",
+    "contact_note": "This website is maintained by the grandchildren of Perel and Joseph Gendler. Donations are not necessary. To use any of these materials, please don't hesitate to reach out and contact us."
+  },
+  "sources": {
+    "wordpress_site": "https://www.gendlergirls.com (6 pages, public WP REST API, no login)",
+    "wix_site": "https://dyb921.wixsite.com/my-site-1 (Dovid's original, one page)",
+    "email_attachments": "Joe J email 2026-08-30: dad bio docx + transfer grid xlsx (in ~/workspace/email/gendler-girls/)"
+  },
+  "videos": [
+    {
+      "id": "RYo37fxAh1I",
+      "title": "A Personal Interview with Mrs. Naomi Jacobson - Documentary - Memories from Lithuania",
+      "channel": "Gendler Girls",
+      "section": "their-story",
+      "label": "Naomi's Story"
+    },
+    {
+      "id": "8gzAgUUEjjM",
+      "title": "Leah Fink Interview by her son Arthur Fink",
+      "channel": "Gendler Girls",
+      "section": "their-story",
+      "label": "Leah's Story"
+    },
+    {
+      "id": "aVm6f8G8CNU",
+      "title": "Rabbi Yehudah and Eliezer Silver - Cousins Interview, October 2024",
+      "channel": "Gendler Girls",
+      "section": "testimonies",
+      "label": "Cousins Interview, October 2024"
+    },
+    {
+      "id": "MndvSjE4sJM",
+      "title": "Naomi Jacobson 90th Birthday",
+      "channel": "DYB Creations",
+      "section": "their-legacy",
+      "label": "Naomi's 90th Birthday"
+    },
+    {
+      "id": "msR2XLuvcro",
+      "title": "HITLER IN MEMEL - NO SOUND",
+      "channel": "British Movietone",
+      "section": "references",
+      "label": "Associated Press archival footage — the Gendler's shop appears at 3:10, 3:47, 3:55, and 5:30"
+    }
+  ],
+  "pages": {
+    "references": {
+      "title": "References",
+      "videos": [
+        "msR2XLuvcro"
+      ],
+      "blocks": [
+        {
+          "type": "h1",
+          "text": "References"
+        },
+        {
+          "type": "h2",
+          "text": "In this archival footage from the Associated Press, you can see the Gendler's shop at the following timestamps: 3:10, 3:47, 3:55, and 5:30"
+        },
+        {
+          "type": "img",
+          "src": "https://www.gendlergirls.com/wp-content/uploads/2026/02/chattanooga.avif",
+          "alt": "chattanooga"
+        },
+        {
+          "type": "h2",
+          "text": "The front page of the Chattanooga News March 23, 1939 features the headline of Hitler's speech in Memel."
+        }
+      ]
+    },
+    "public-appearances": {
+      "title": "Public Appearances",
+      "videos": [],
+      "blocks": [
+        {
+          "type": "h1",
+          "text": "Public Appearances"
+        },
+        {
+          "type": "h3",
+          "text": "Update in progress"
+        },
+        {
+          "type": "p",
+          "text": "Please check back later."
+        },
+        {
+          "type": "h2",
+          "text": "Connect with us"
+        },
+        {
+          "type": "p",
+          "text": "This website is maintained by the grandchildren of Perel and Joseph Gendler. Donations are not necessary. To use any of these materials, please don’t hesitate to reach out and contact us."
+        }
+      ]
+    },
+    "testimonies": {
+      "title": "Testimonies",
+      "videos": [
+        "aVm6f8G8CNU"
+      ],
+      "blocks": [
+        {
+          "type": "h1",
+          "text": "Testimonies"
+        },
+        {
+          "type": "h2",
+          "text": "Rabbi Yehudah and Eliezer Silver - Cousins Interview, October 2024"
+        },
+        {
+          "type": "h2",
+          "text": "Connect with us"
+        },
+        {
+          "type": "p",
+          "text": "This website is maintained by the grandchildren of Perel and Joseph Gendler. Donations are not necessary. To use any of these materials, please don’t hesitate to reach out and contact us."
+        }
+      ]
+    },
+    "their-legacy": {
+      "title": "Their Legacy",
+      "videos": [
+        "MndvSjE4sJM"
+      ],
+      "blocks": [
+        {
+          "type": "h1",
+          "text": "Their Legacy"
+        },
+        {
+          "type": "h2",
+          "text": "Family Albums"
+        },
+        {
+          "type": "h3",
+          "text": "Leah's Family Photos"
+        },
+        {
+          "type": "h3",
+          "text": "Naomi's Family Photos"
+        },
+        {
+          "type": "h3",
+          "text": "Misc. Photos"
+        },
+        {
+          "type": "h3",
+          "text": "Naomi's 90th Birthday"
+        },
+        {
+          "type": "h3",
+          "text": "Leah Fink - Speeches"
+        },
+        {
+          "type": "p",
+          "text": "Read the speeches that were given at the Leviah of Leah Fink."
+        },
+        {
+          "type": "h4",
+          "text": "Arthur Fink – Son"
+        },
+        {
+          "type": "p",
+          "text": "“Thank you for coming to help dedicate my mom’s Matzevah."
+        },
+        {
+          "type": "p",
+          "text": "It’s been a little over a year since Mom’s passing and I’m sure we’ve all thought about her a lot over the past year. She has certainly left an indelible imprint on all of our lives."
+        },
+        {
+          "type": "p",
+          "text": "We all know about the many adversities that she had to confront in her life. Of course, the many years she suffered when the Nazis and with it, the loss of her parents, her sister, her entire extended family in Europe, the loss of her home and all of her material possessions. Then, the normal struggles of raising a family, of getting through severe financial difficulties, and of course, the loss of her dearest, precious daughter; my sister, Paula, which was by far the saddest event in her life. And then finally, the many years of declining health."
+        },
+        {
+          "type": "p",
+          "text": "Yet, despite all this, Bubby was a personality of a force to be reckoned with. To the way she and Bubby was aware of what was going on in everyone’s life. But not just in a general way, she wanted to know details. And she gave advice, solicited or unsolicited."
+        },
+        {
+          "type": "p",
+          "text": "Bubby had a group of very close friends, most of whom were also survivors. They became to her her extended family and it was sad for her in her later years, to hear of so many of them passing away."
+        },
+        {
+          "type": "p",
+          "text": "But what was Bubby’s secret to keep on going? I never understood where she got the will to go forward and not dwell on her tragedies? I have heard her ask a rabbinical relative why G-d allowed the Holocaust to happen. But I never heard her ask, “why did this happen to me?” Her community of survivors took solace from each other in their shared loss. She did not, therefore, feel alone. Paula’s loss was different and struck at a much deeper place, because this was personal and she did feel alone."
+        },
+        {
+          "type": "p",
+          "text": "Bubby was always thankful and had such Hakaras Ha’Tov for those who helped her in her life. She repeatedly would tell her children of the kindness that others had saved her. Especially of Evelyn and David Silver, and Dora and Rabbi Boruch Feivelsohn."
+        },
+        {
+          "type": "p",
+          "text": "It is amazing that in spite of all she went through, she was not a bitter person. She was able to find joy in life. She was thankful that she was able to bear children and have a family. She was thankful to find a measure of security in America. She loved Israel and she and my dear dad spent many enjoyable months in Israel; soaking in the beauty and the atmosphere of a Jewish state. She enjoyed dancing."
+        },
+        {
+          "type": "p",
+          "text": "My mom, daughter of Pearl and Joseph Gendler, sister of Naomi and Chaya Rivka, wife of Jacob Fink, mother of Paula, Helen, and Artie, grandmother and great grandmother, Holocaust survivor, triumphed over Hitler (may his name and memory be erased forever) and the Nazis (may their name be erased forever). She outlasted them, rebuilt a life like a phoenix, rising from the ashes."
+        },
+        {
+          "type": "p",
+          "text": "May her soul be bound in the bond of life together with the souls of Abraham, Isaac, and Jacob, Rebecca, Rachel, and Leah, and together, with the righteous men and women in the Garden of Eden.”"
+        },
+        {
+          "type": "h4",
+          "text": "Bubby (1920 – 2017) Speech"
+        },
+        {
+          "type": "p",
+          "text": "Written and delivered by Eli Fink – Grandson"
+        },
+        {
+          "type": "p",
+          "text": "“Bubby died Peacefully yesterday … 96 years young."
+        },
+        {
+          "type": "p",
+          "text": "While it is impossible to fully describe a life that lasted over 96 years and spanned the most tumultuous events of Jewish and human history, I’ll simply touch on a few of Bubby’s more outstanding characteristics:"
+        },
+        {
+          "type": "p",
+          "text": "Bubby was a person who displayed …"
+        },
+        {
+          "type": "p",
+          "text": "Incredible resilience and perseverance in the face of adversity –"
+        },
+        {
+          "type": "p",
+          "text": "She experienced unspeakable horror and the full depths of Nazi depravity during the Second World War. Uprooted from her home in the Lithuanian city of Memel, she survived the dehumanizing conditions of the Kovno Ghetto and the infamous Stutthof concentration camp."
+        },
+        {
+          "type": "p",
+          "text": "She virtually lost her entire family in the Holocaust but, along with her sister, Aunt Naomi, ultimately outlasted Hitler and his henchmen."
+        },
+        {
+          "type": "p",
+          "text": "She suffered innumerable health problems throughout the years, repeated cancer treatments, hospitalizations, and painful surgeries."
+        },
+        {
+          "type": "p",
+          "text": "She lost her beloved daughter, Aunt Paula, in her late 70’s."
+        },
+        {
+          "type": "p",
+          "text": "…and though some of these events tormented her to the end days, throughout all of this she maintained an indomitable spirit, an unceasing will to live, a steadfast refusal to completely emotionally crumble or wallow in self-pity, and she went on to raise a family in a new country in a new hemisphere, which now spans multiple generations."
+        },
+        {
+          "type": "p",
+          "text": "Bubby selflessly took care of Zaidy, her adored husband, for over half a century in his later years."
+        },
+        {
+          "type": "p",
+          "text": "She cared deeply about her descendants – children, grandchildren and great-grandchildren – and always inquired about their academic and professional progress, their weight fluctuations, and romantic entanglements."
+        },
+        {
+          "type": "p",
+          "text": "When receiving a call, Bubby would pick up the phone and say “vevee??” If it was one of her grandkids, she would greet them enthusiastically. However, if it was a telemarketer or an organization seeking a donation, she’d say, “I’m an old lady.”"
+        },
+        {
+          "type": "p",
+          "text": "Bubby was a very genuine, very real person. She spoke her mind and freely articulated her views and opinions. She was a person who had high standards, including for her aids that kindly looked after her in her final years… could pull one past Bubby and not live to later hear about it."
+        },
+        {
+          "type": "p",
+          "text": "She also held on to her autonomy tenaciously, and lived independently for as long as she could."
+        },
+        {
+          "type": "p",
+          "text": "Bubby was always appreciative of the assistance she received. This was especially true for the hundreds of food packages that my mother prepared for her over her last decade."
+        },
+        {
+          "type": "p",
+          "text": "Bubby was a devoted and formidable TV watcher. A particularly big fan of the Bachelor, Dr. Phil, and Judge Judy, Bubby very well may have logged a record-breaking number of viewing hours in her final decade."
+        },
+        {
+          "type": "p",
+          "text": "Above all else, Bubby was not an armchair philosopher. She was someone who continuously fought to make the best of the difficult hand she was dealt in life. She had a strong set of principles and values — and she lived by them."
+        },
+        {
+          "type": "p",
+          "text": "Bubby, we love you and miss you very much."
+        },
+        {
+          "type": "p",
+          "text": "(pause)"
+        },
+        {
+          "type": "p",
+          "text": "I feel compelled to acknowledge my Dad’s decades-long efforts to help Bubby in every conceivable way, from chauffeuring her to and from family events, arranging VIP-level medical treatment, and seeing after all her numerous needs."
+        },
+        {
+          "type": "p",
+          "text": "On behalf of the family, Thanks Dad.”"
+        },
+        {
+          "type": "h4",
+          "text": "2/19/2017"
+        },
+        {
+          "type": "h4",
+          "text": "By Howie Falkenstein – Grandson"
+        },
+        {
+          "type": "p",
+          "text": "“There are many adjectives and words to describe my Bubbie: unique, one of a kind, Strong-willed, tough, stubborn, survivor, brave, passionate, fighter, hospitable— always offering food and drink when you come to visit her. Prideful, and loved her family; Artie of course being her favorite, undoubtedly."
+        },
+        {
+          "type": "p",
+          "text": "I want to take you back to some of my memories that will give you all some insight into my Bubbie through my eyes."
+        },
+        {
+          "type": "p",
+          "text": "My first funny memory was at Adina and Fred’s wedding in Chicago. I looked up on stage at the Badekin and I saw 2 Bubbies!! I couldn’t believe my eyes that there were two of them!? Bubbie and her sister, Aunt Naomi looked like twins and that’s when I got to meet Bubbie Junior and learned their story."
+        },
+        {
+          "type": "p",
+          "text": "Albert’s bungalow in Monticello. My family and I loved spending numerous weekends with Bubbie and Zaydie up in the mountains. We went swimming. Bubbie made delicious breakfasts. It was a wonderful time."
+        },
+        {
+          "type": "p",
+          "text": "Brooklyn—The Plastic on the couches, the grand piano. The candy jar, cookies in the oatmeal cannister, Bubbie’s delicious chicken soup. Zaydie sitting in the kitchen, in his chair, wearing his white undershirt and slurping Bubbie’s soup, and telling me “it’s good.” Bubbie speaking to him in Yiddish and all I could understand is “Jack…”"
+        },
+        {
+          "type": "p",
+          "text": "Some Bubbie-isms:"
+        },
+        {
+          "type": "p",
+          "text": "“Eat! Eat!”"
+        },
+        {
+          "type": "p",
+          "text": "“Vi Vi.”"
+        },
+        {
+          "type": "p",
+          "text": "“Vos is Dos”"
+        },
+        {
+          "type": "p",
+          "text": "“Veggie-Tables”"
+        },
+        {
+          "type": "p",
+          "text": "Grabbing my wrist when talking to me… Boy was she strong!"
+        },
+        {
+          "type": "p",
+          "text": "Lawrence-Central Ave—Going to Traditions restaurant. Bubbie always telling the waiter there was something wrong with the food (usually it was not hot enough) and sending it back. The Bubbie Building. Hanging out with Bubbie in the TV room. Showing her pictures of the family on my phone. Going over each and every relative and getting updates on all aspects of their lives."
+        },
+        {
+          "type": "p",
+          "text": "Purim Seudah of 2016 took place at Bubbie’s apartment. Auntie Helen was intown and Uncle Artie, my brother, and all the cousins were all together with Bubbie. It was a fun time and a happy memory. I’m glad we decided to have the party at Bubbie’s."
+        },
+        {
+          "type": "p",
+          "text": "Last July 2016, Rachel and I brought both our children Pauly & Katie over to see Bubbie. They sat on her lap and you can see it brought tremendous joy to her face. It was an honor for me to give her that pleasure. I felt a piece of my mom, Paula, and my Zaydie was there with us at this time. It was truly a special moment that I will never forget. Rachel and I will also never forget how extremely hot it was in Bubbie’s apartment. Bubbie liked to keep the thermostat at a steamy 85 degrees!"
+        },
+        {
+          "type": "p",
+          "text": "Bubbie did not have an easy life but she persevered and overcame her hardships. Through her heroic actions during the Holocaust, saving the life of her beloved sister Naomi, Bubbie was responsible for the growth of the Fink, Kanter, Falkenstein, Jacobson, Aaron, and Stein families. Bubbie, you are a true Hero. We love you; we will miss you, but your legacy will live in forever."
+        },
+        {
+          "type": "p",
+          "text": "You were truly one of a kind.”"
+        },
+        {
+          "type": "h3",
+          "text": "Joel's Notes"
+        },
+        {
+          "type": "p",
+          "text": "Joel Jacobson keeps a notebook of things his mother, Naomi remembers and writes them down. Here are the pages of the notebook."
+        },
+        {
+          "type": "p",
+          "text": "***Note: This will eventually become its own page, with each page transcribed, for those who can’t read handwriting that well. But for now, it’s being put here."
+        }
+      ]
+    },
+    "their-story": {
+      "title": "Their Story",
+      "videos": [
+        "8gzAgUUEjjM",
+        "RYo37fxAh1I"
+      ],
+      "blocks": [
+        {
+          "type": "h1",
+          "text": "In Their Words"
+        },
+        {
+          "type": "p",
+          "text": "Firsthand testimony from Leah and Naomi Gendler. Their voices carry the weight of memory and the strength of survival. These are their stories."
+        },
+        {
+          "type": "h2",
+          "text": "Naomi's Story"
+        },
+        {
+          "type": "h2",
+          "text": "Leah's Story"
+        },
+        {
+          "type": "h2",
+          "text": "Connect with us"
+        },
+        {
+          "type": "p",
+          "text": "This website is maintained by the grandchildren of Perel and Joseph Gendler. Donations are not necessary. To use any of these materials, please don’t hesitate to reach out and contact us."
+        }
+      ]
+    },
+    "home": {
+      "title": "Home",
+      "videos": [
+        "RYo37fxAh1I"
+      ],
+      "blocks": [
+        {
+          "type": "h1",
+          "text": "Sisters. Holocaust Survivors. Witnesses."
+        },
+        {
+          "type": "p",
+          "text": "The Gendler Girls is a tribute to the courage, love, and unbreakable bond between two sisters who survived the Holocaust together: Leah Gendler Fink and Naomi Gendler Jacobson."
+        },
+        {
+          "type": "p",
+          "text": "Through firsthand testimony, archival images, and their enduring legacy, this site preserves not only their story, but the truth of what they lived through. It’s a space for remembrance, for education, and for bearing witness – so the world never forgets what hate made possible, and what love managed to endure."
+        },
+        {
+          "type": "h2",
+          "text": "The Timeline"
+        },
+        {
+          "type": "h3",
+          "text": "Pre-1939"
+        },
+        {
+          "type": "h3",
+          "text": "1939"
+        },
+        {
+          "type": "h3",
+          "text": "1941"
+        },
+        {
+          "type": "h3",
+          "text": "1944"
+        },
+        {
+          "type": "h3",
+          "text": "1945"
+        },
+        {
+          "type": "h3",
+          "text": "Post-1945"
+        },
+        {
+          "type": "img",
+          "src": "https://www.gendlergirls.com/wp-content/uploads/2026/05/sisters2.jpg",
+          "alt": "Two men and two women in sun hats pose together outdoors near the coast."
+        },
+        {
+          "type": "h2",
+          "text": "Preserving Their Story"
+        },
+        {
+          "type": "p",
+          "text": "Leah and Naomi survived the Shoah together. Through years of persecution, displacement, starvation, and loss, the two sisters protected and encouraged one another under unimaginable circumstances."
+        },
+        {
+          "type": "p",
+          "text": "Leah, the older sister, was 19 years old when the Germans invaded in 1939 – tall, athletic, fearless, and fiercely protective of her younger sister. Naomi Jacobson, who was then called Hana, was only 11 years old, yet faced the horrors around her with remarkable maturity and resilience."
+        },
+        {
+          "type": "p",
+          "text": "Together, they endured the destruction of their family, the brutality of the ghettos and camps, and the uncertainty of survival itself."
+        },
+        {
+          "type": "h2",
+          "text": "In Their Own Words"
+        },
+        {
+          "type": "p",
+          "text": "In this documentary interview, Naomi Gendler Jacobson reflects on her memories of life in Lithuania before the war, the devastation brought by the Nazi invasion, and the years she endured during the Holocaust alongside her sister Leah."
+        },
+        {
+          "type": "p",
+          "text": "Through firsthand testimony, she recounts survival, loss, resilience, and rebuilding a life after unimaginable tragedy. Her words preserve both historical truth and lived memory."
+        },
+        {
+          "type": "img",
+          "src": "https://www.gendlergirls.com/wp-content/uploads/2026/05/chaya.jpg",
+          "alt": "Two women in fur-collared coats smile together indoors, with onlookers visible behind them."
+        },
+        {
+          "type": "h2",
+          "text": "The Sister Who Did Not Survive"
+        },
+        {
+          "type": "p",
+          "text": "Leah and Naomi were born to Joseph and Perel Gendler in Memel, Lithuania, alongside their older sister Chaya."
+        },
+        {
+          "type": "p",
+          "text": "Before the war, they remembered living through what they later called the gu’te tzeiten – “the good times” – years of family, normalcy, and peace before the Nazi invasion shattered their world and forced them to flee for their lives."
+        },
+        {
+          "type": "p",
+          "text": "Chaya did not survive the Holocaust. Neither did their parents, Chaya’s husband, their son Avram, nor many of their relatives. From their immediate family, only Leah and Naomi survived."
+        },
+        {
+          "type": "h2",
+          "text": "Our Mission"
+        },
+        {
+          "type": "p",
+          "text": "Our main goal is to educate people about the Shoah, or the Holocaust, by shedding light on what life was really like in these incomprehensibly cruel circumstances. Sometimes it can be hard to imagine that these things actually did happen, so we feel that it is important to show the actual people who have lived through those experiences and managed to survive.In addition, we hope that sharing the video testimonies of Naomi and Leah Gendler, and photos and details of life as it progressed in the years and decades after the war, will not only provide an inspirational view of their spirit to survive and build new lives, but also will provide an unassailable answer to those misguided individuals who already in our time are beginning to doubt if these events actually occurred.It is our sincerest wish that by sharing Naomi and Leah’s incredible and inspirational stories, we can honor the memories of the 29,000 souls that were lost in the Kovno ghetto, the 65,000 souls that were lost in the Stutthoff concentration camp, and the 10,000 souls lost at the 7th Fort."
+        },
+        {
+          "type": "p",
+          "text": "By sharing these intimate stories, it is our hope that their experiences are never forgotten and more importantly, never repeated."
+        },
+        {
+          "type": "h2",
+          "text": "Connect With Us"
+        },
+        {
+          "type": "p",
+          "text": "This website is maintained by the grandchildren of Perel and Joseph Gendler. Donations are not necessary. To use any of these materials, please don’t hesitate to reach out and contact us."
+        }
+      ]
+    }
+  },
+  "wix_original": {
+    "welcome": "Welcome to gendlergirls.com. Here we are presenting and preserving the story of two extraordinary women: sisters who survived the Shoah together. Who encouraged each other, took care of each other, and saved each other in the most extreme and barbaric circumstances. Leah Fink, the older sister was 19 years old, tall, athletic, and as would be seen later, incredibly bold when the Germans invaded in 1939. Naomi Jacobson, who was then called Hana, was only 11 years old, but despite her youth, behaved with uncommon maturity and strength throughout the years of their ordeal.",
+    "family": "They and their oldest sister Chaya, who did not survive, were born to Joseph and Perel Gendler in Memel, Lithuania. They enjoyed what they later referred to as the gu'te tzeiten, the good times, of normal life before the Nazis invaded and shattered their existence and their family was forced to flee Memel for their lives. Eventually, both of their parents were murdered, as well as Chaya, Chaya's husband, and their son, Avram, and many uncles and aunts and cousins. From their family only Naomi and Leah survived.",
+    "history_note": "In this archival footage from the Associated Press, you can see the Gendler's shop at the following timestamps: 3:10, 3:47, 3:55, and 5:30. The front page of the Chattanooga News March 23, 1939 features the headline of Hitler's speech in Memel.",
+    "photos": [
+      "wix-IMG_3225.jpg",
+      "wix-family-israel.jpeg",
+      "wix-PHOTO-2023-04-16.jpg",
+      "wix-IMG_20180408.jpg"
+    ]
+  },
+  "dad_bio_draft": {
+    "file": "Dad bio for Gendlergirls.com.docx",
+    "subject": "Irwin Jacobson (1924, Chicago) — Naomi's husband, Joe J's father. WWII veteran, clarinetist.",
+    "status": "DRAFT — has blank fields (father Abraham's birthplace, mother Esther's birthplace) and typos; Joe noted it needs updating. Include on the site as a draft/family page, not as finished copy.",
+    "text": "Irwin Jacobson of blessed memory was born in 1924 in Chicago. His father Abraham was born in _______________ and his mother Esther was born in  ___________________. He grew up speaking only Yiddish at home until he went off to kindergarten. (Actually he recalled coming  home the first day and not going back until first grade!). Therefore, culturally and coupled with  his innate sensitivity, he was destined to be a perfect match for Naomi.    \n\nAs cousin Rabbi Yehuda Silver observed in the attached reel, ”As a US veteran serving during World War Two , there was a sense he participated in what was going on- that he was one of them. His strength of character, his personality, kind and smooth, easy to be with. It wasn’t just Naomi. It was Naomi and Irwin.”   \n\nHe recalled going to synagogue with his father, and studied at the Hebrew Theological college while in high school\n\nIrwin was a talented clarinetist, and was selected as the Concert Meister of the very large band at Manley hgh school. He was beloved by his friends, and as one friend wrote in Irwin’s yearbook, he was a “swell guy” and that was how was perceived throughout his life.\n\nWhen World War two beckoned and he was drafted, his great musical talent .. served on Air Force band until sent overseas to India. He loved America.\n\nHe like to read, follow the news, was a member of book clubs.  \n\nHe was a role model to his two daughters and his soon he was so proud of, fond of and loved by nephews and nieces. Sunday trips to museums, barbeques at the forest preserve, fireworks on July 4th, concerts at Grant Park"
+  },
+  "transfer_grid": {
+    "file": "TRANSFERRING GENDLER GIRLS WEBSITE.xlsx",
+    "note": "Joe's grid mapping old-site items to new-site sections. Most items checked under 'Their Stories'. Unchecked items: Home Page*, The Gendlers' Legacy**, Revisiting Lithuania***, In their Words****. Footnote markers have no legend in the sheet. Items: Home Page, AP Footage, Chattanooga News, The Gendlers' Legacy, 90th Birthday, Photos, Notes, Speeches, Revisiting Lithuania, In their Words, Intro by Rabbi Litwack, Schools and Synagogues."
+  },
+  "gaps_and_notes": [
+    "Public Appearances page is empty on the live site ('Update in progress. Please check back later.') — include the section, empty state ready for Joe to add items.",
+    "Home timeline has only year headings (Pre-1939, 1939, 1941, 1944, 1945, Post-1945) with no body text — include as an editable timeline Joe can fill in.",
+    "Their Story page has only the two video interviews; Naomi's/Leah's written story sections are empty — include as editable sections.",
+    "Joel's Notes: Joel Jacobson keeps a notebook of things his mother Naomi remembers. The live site says it will eventually become its own page with transcriptions. Include a Joel's Notes section ready for notebook-page photos and transcriptions.",
+    "Family album galleries on the live site (Leah's Family Photos, Naomi's Family Photos, Misc. Photos, Naomi's 90th Birthday) use the downloaded photos; exact per-album assignment was not recoverable, so assign sensibly and make albums editable.",
+    "Keep all existing copy verbatim; do not invent history, dates, or quotes."
+  ],
+  "media": [
+    {
+      "file": "camp.jpg",
+      "bytes": 135940
+    },
+    {
+      "file": "candles.webp",
+      "bytes": 67504
+    },
+    {
+      "file": "chattanooga.avif",
+      "bytes": 68918
+    },
+    {
+      "file": "chaya.jpg",
+      "bytes": 69956
+    },
+    {
+      "file": "cropped-favicon-1.png",
+      "bytes": 4442
+    },
+    {
+      "file": "favicon-1.png",
+      "bytes": 3782
+    },
+    {
+      "file": "gendler-hero.jpg",
+      "bytes": 163258
+    },
+    {
+      "file": "leah-and-naomi-gendler.jpg",
+      "bytes": 243131
+    },
+    {
+      "file": "leah-naomi-gendler.jpg",
+      "bytes": 212199
+    },
+    {
+      "file": "logo-svg-white.svg",
+      "bytes": 2548
+    },
+    {
+      "file": "logo.svg",
+      "bytes": 3265
+    },
+    {
+      "file": "radiant-gradient.svg",
+      "bytes": 3955
+    },
+    {
+      "file": "rainbow-vortex.svg",
+      "bytes": 1194
+    },
+    {
+      "file": "rose-petals.svg",
+      "bytes": 826
+    },
+    {
+      "file": "sisters0.jpg",
+      "bytes": 44955
+    },
+    {
+      "file": "sisters1-full.jpg",
+      "bytes": 27783
+    },
+    {
+      "file": "sisters1.webp",
+      "bytes": 12754
+    },
+    {
+      "file": "sisters2.jpg",
+      "bytes": 129180
+    },
+    {
+      "file": "sisters2.webp",
+      "bytes": 30526
+    },
+    {
+      "file": "wix-IMG_20180408.jpg",
+      "bytes": 5072135
+    },
+    {
+      "file": "wix-IMG_3225.jpg",
+      "bytes": 2127202
+    },
+    {
+      "file": "wix-PHOTO-2023-04-16.jpg",
+      "bytes": 210543
+    },
+    {
+      "file": "wix-family-israel.jpeg",
+      "bytes": 472798
+    }
+  ]
+}
