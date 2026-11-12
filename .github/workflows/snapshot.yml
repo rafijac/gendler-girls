@@ -1,0 +1,74 @@
+# Nightly content snapshot — the ultimate backstop for the family site.
+#
+# Pulls a full JSON export (all content, including deleted items and version
+# history) from the live site and commits it to data/snapshot.json — but only
+# when it changed. Git keeps every snapshot forever, so even if the whole
+# database is wiped, any past snapshot can be restored.
+#
+# Required repo secrets (Settings → Secrets and variables → Actions):
+#   SITE_URL        e.g. https://gendler-girls.pages.dev (no trailing slash)
+#   SNAPSHOT_TOKEN  must match the SNAPSHOT_TOKEN secret in Cloudflare
+#
+# If either secret is unset (e.g. the site is not deployed yet) the job
+# skips cleanly instead of failing.
+
+name: Nightly content snapshot
+
+on:
+  schedule:
+    - cron: "0 2 * * *" # 02:00 UTC nightly
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Skip if not configured
+        id: check
+        run: |
+          if [ -z "${{ secrets.SITE_URL }}" ] || [ -z "${{ secrets.SNAPSHOT_TOKEN }}" ]; then
+            echo "SITE_URL or SNAPSHOT_TOKEN is not set — skipping snapshot."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Fetch snapshot from the live site
+        if: steps.check.outputs.skip == 'false'
+        run: |
+          mkdir -p data
+          if ! curl -sS --fail --max-time 60 \
+              "${{ secrets.SITE_URL }}/api/export?token=${{ secrets.SNAPSHOT_TOKEN }}" \
+              -o data/snapshot.json.new; then
+            echo "Snapshot fetch failed (site may be down or token wrong) — skipping."
+            rm -f data/snapshot.json.new
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          # Validate it is JSON before accepting it.
+          python3 -c "import json; json.load(open('data/snapshot.json.new'))" || {
+            echo "Snapshot is not valid JSON — skipping."
+            rm -f data/snapshot.json.new
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          }
+          mv data/snapshot.json.new data/snapshot.json
+
+      - name: Commit snapshot if changed
+        if: steps.check.outputs.skip == 'false'
+        run: |
+          if git diff --quiet -- data/snapshot.json; then
+            echo "No content changes — nothing to commit."
+            exit 0
+          fi
+          git config user.name "gendler-girls-snapshot"
+          git config user.email "snapshot@users.noreply.github.com"
+          git add data/snapshot.json
+          git commit -m "snapshot: content export $(date -u +%Y-%m-%d)"
+          git push
