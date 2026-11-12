@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin — Gendler Girls</title>
+  <link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="/admin/">Gendler Girls <span>Admin</span></a>
+      <nav class="topbar-nav" id="topbar-nav" hidden>
+        <a class="btn btn-ghost" href="/" target="_blank" rel="noopener">View public site ↗</a>
+        <button class="btn btn-ghost" id="logout-btn" type="button">Log out</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="view">
+    <p class="loading">Loading…</p>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="/admin/admin.js"></script>
+</body>
+</html>
