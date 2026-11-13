@@ -9,10 +9,7 @@ pages_build_output_dir = "public"
 [[d1_databases]]
 binding = "DB"
 database_name = "gendler-girls"
-# NOTE: database_id is intentionally omitted. Local dev (`wrangler pages dev`
-# with a local D1) works without it. After creating the remote database with
-# `wrangler d1 create gendler-girls`, paste the returned database_id here
-# (see README) before deploying remotely.
+database_id = "a787329e-e0ed-4266-86f8-faab55f0d2f3"
 
 [[r2_buckets]]
 binding = "R2"
